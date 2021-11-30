@@ -64,7 +64,7 @@ button:hover{
   margin-left: auto;
   margin-right: auto;
   width: 35%;
-  height: 10%;
+
 }
 
 p{
@@ -90,7 +90,10 @@ p{
     padding:  0px 250px;
 }
 
-.insta{
+.ig-photo{
+    display: block;
     margin-right: auto;
     margin-left: auto;
+    width: 10%;
+  
 }
