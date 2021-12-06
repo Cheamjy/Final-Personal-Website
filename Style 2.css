@@ -29,7 +29,32 @@ main{
 
 /*body*/
 
+.Photo-1{
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.Photo-2{
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Photos-section{
+    padding: 50px 100px;
+    width: 290px;
+    height: 290px;
+
+}
+
+.Photos-section-2{
+    padding: 50px 100px;
+    width: 290px;
+    height: 290px;
+}
 
 
 footer{
