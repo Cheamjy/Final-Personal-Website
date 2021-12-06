@@ -30,11 +30,19 @@ main{
 /*body*/
 
 .Photo-1{
+    color: white;
     display: flex ;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+p{
+    text-align: center;
+    font-family: mokoko, serif;
+
+ }
+
 
 .Photo-2{
     display: flex ;
@@ -47,7 +55,6 @@ main{
     padding: 50px 100px;
     width: 290px;
     height: 290px;
-
 }
 
 .Photos-section-2{
