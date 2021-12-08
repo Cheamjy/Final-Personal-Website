@@ -27,7 +27,7 @@ button {
 }
 
 button:hover{
-    background-color: white;
+    background-color: grey;
     
 }
 
@@ -92,10 +92,13 @@ p{
 
  }
 
+
 .Photos-section{
     padding: 50px 100px;
     width: 290px;
     height: 290px;
+    
+
 }
 
 .Photos-section-2{
