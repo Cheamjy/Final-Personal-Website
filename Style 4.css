@@ -60,6 +60,12 @@ h1{
 
 /*body*/
 
+.Photos-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 /*footer*/
 
