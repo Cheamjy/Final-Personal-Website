@@ -61,6 +61,7 @@ main{
 /*body*/
 
 .Photo-1{
+    
     color: white;
     display: flex ;
     flex-wrap: wrap;
@@ -89,23 +90,25 @@ h1{
 p{
     text-align: center;
     font-family: mokoko, serif;
-
  }
-
+ 
 
 .Photos-section{
     padding: 50px 100px;
     width: 290px;
     height: 290px;
-    
-
 }
+
+
 
 .Photos-section-2{
     padding: 50px 100px;
     width: 290px;
     height: 290px;
 }
+
+
+
 
 
 
