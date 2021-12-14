@@ -1,9 +1,18 @@
 body{
-    background-color: black;
+    background-color:black;
+}
+
+header{
+    height: -10px;
 }
 
 
-
+h1{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+ 
 .navigation {
     
     display: flex;
@@ -17,12 +26,12 @@ button {
     color: white;
     background-color: black;
     transition-duration: 0.5s;
-    font-family:  mokoko, serif;
+    font-family: mokoko, serif ;
     font-size: 12px;
     border: none;
     position: relative;
     right: -200px;
-    top: -59px;
+    top: -55px;
     padding: 10px 18px;
 }
 
@@ -40,68 +49,29 @@ button:hover{
 
 }
 
-main{
-    background-color: black;
-    display: flex;
-    height: auto;
-    width: auto;
-}
-
-
-h1{
-    color: white;
-    text-align: center;
-    font-family: mokoko, serif;
-    font-size: 20px;
-    margin-top: -2%;
-    margin-bottom: 3%;
-
- }
-
 /*body*/
 
-.Photos-1{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
-
-.Photos-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
-}
-
-
-.text{
-    text-align: center;
-    border: 1px solid white;
-    color: white;
-    padding: 50px;
-    margin: 2px;
-}
 
 
 /*footer*/
-
-h2{
+h1{
     color: white;
     font-family: mokoko, serif ;;
     font-size: 10px;
     text-align: left;
     padding:  0px 250px;
     padding-top: 2%;
+    
 }
 
-h3{
+h2{
     color: white;
     font-family: mokoko, serif ;
     font-size: 10px;
     text-align: left;
     padding:  0px 250px;
-    padding-bottom: -3%;
+    padding-bottom: -2%;
 }
 
 .ig-photo{
@@ -112,6 +82,5 @@ h3{
     width: 10%;
     
 }
-
 
 
