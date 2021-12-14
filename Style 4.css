@@ -4,27 +4,33 @@ body{
 
 
 
+header{
+    height: 100px;
+}
+
+ul{
+    position: relative;
+    left: -250px;
+    top: 20px;
+    padding: 30px;
+    float: right;
+
+}
+ 
 .navigation {
-    
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-    margin: 5px;
     
 }
 
-button {
+button{
     color: white;
     background-color: black;
-    transition-duration: 0.5s;
-    font-family:  mokoko, serif;
-    font-size: 12px;
     border: none;
-    position: relative;
-    right: -200px;
-    top: -59px;
-    padding: 10px 18px;
+    font-family: mokoko, serif;
 }
+
 
 button:hover{
     background-color: grey;
@@ -32,12 +38,22 @@ button:hover{
 }
 
 .Photo-Logo{
-    position: relative;
-    display: block;
+    float: left ;
+    width: 110px;
     margin-left: 300px;
     margin-right: auto;
     top: 20px;
 
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: mokoko, serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 main{
@@ -46,17 +62,6 @@ main{
     height: auto;
     width: auto;
 }
-
-
-h1{
-    color: white;
-    text-align: center;
-    font-family: mokoko, serif;
-    font-size: 20px;
-    margin-top: -2%;
-    margin-bottom: 3%;
-
- }
 
 /*body*/
 
