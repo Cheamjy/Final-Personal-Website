@@ -49,13 +49,41 @@ button:hover{
 
 }
 
+h1{
+    color: white;
+    text-align: center;
+    font-family: mokoko, serif;
+    font-size: 20px;
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
+
 /*body*/
 
+.picture{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%; 
+  
+}
 
+.picture-two{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+.text{
+    color: white;
+    font-family: mokoko, serif ;
+    border: 1px solid white;
+}
 
 
 /*footer*/
-h1{
+h2{
     color: white;
     font-family: mokoko, serif ;;
     font-size: 10px;
@@ -65,7 +93,7 @@ h1{
     
 }
 
-h2{
+h3{
     color: white;
     font-family: mokoko, serif ;
     font-size: 10px;
