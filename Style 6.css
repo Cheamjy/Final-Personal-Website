@@ -70,62 +70,7 @@ main{
 
 /*body*/
 
-/*main{
-    background-color: white;
-    padding: 10px 10px ;
-    width: 100 px;
-}*/
 
-.section-two{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 78%;
-  padding: 1% ;
- 
-  
-}
-
-.photo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    border: 1px solid white;
-    
-}
-
-.photo-2{
-    display: flex;
-    border: 1px solid white;
-    padding: 1%;
-    justify-content: space-evenly;
-    
-}
-
-.photo .text{
-    flex: 1;
-    padding: 5%;
-}
-
-
-
-.text{
-    color: white;
-    font-family: poppins, sans-serif;
-    font-size: 20px;
-    word-spacing: 5px;
-    padding: 2%;
-}
-
-
-.text-2{
-    color: white;
-    text-align: center;
-    font-family: poppins, sans-serif;
-    font-size: 20px;
-    word-spacing: 5px;
-    padding: 2%;
-}
 
 
 
