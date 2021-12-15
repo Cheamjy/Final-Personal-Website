@@ -29,6 +29,7 @@ button{
     background-color: black;
     border: none;
     font-family: mokoko, serif;
+    transition: .4s ease;
 }
 
 
@@ -80,15 +81,31 @@ main{
   margin-left: auto;
   margin-right: auto;
   width: 78%;
-  border: 1px solid white;
+  padding: 1% ;
+ 
   
 }
 
 .photo{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid pink;
+    justify-content: flex-start;
+    border: 1px solid white;
     
+}
+
+.photo .text{
+    flex: 1;
+    padding: 5%;
+}
+
+
+.text{
+    color: white;
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    word-spacing: 5px;
+    padding: 2%;
 }
 
 
@@ -118,7 +135,7 @@ h3{
     margin-right: auto;
     margin-left: auto;
     margin-top: -40px;
-    width: 10%;
+    width: 0%;
     
 }
 
