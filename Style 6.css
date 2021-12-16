@@ -58,22 +58,70 @@ h1{
     
 }
 
-main{
-    background-color: black;
-    display: flex;
-    height: auto;
-    width: auto;
-}
-
 
 
 
 /*body*/
 
+.section-two{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+    padding: 1% ;
+    
+  }
+  
+  .photo{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      border: 1px solid white;
+      
+  }
+  
+  .text-3{
+      color: white;
+      display: flex;
+      border: 1px solid white;
+      padding: 1%;
+      justify-content: space-evenly;
+      
+  }
+  
+  .photo .text{
+      flex: 1;
+      padding: 5%;
+  }
+  
+  
+  
+  .text{
+      color: white;
+      font-family: poppins, sans-serif;
+      font-size: 15px;
+      word-spacing: 5px;
+      padding: 2%;
+  }
+  
+  
+  .text-2{
+      color: white;
+      text-align: center;
+      font-family: poppins, sans-serif;
+      font-size: 20px;
+      word-spacing: 5px;
+      padding: 2%;
+  }
 
-
-
-
+  .text-3{
+    color: white;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    word-spacing: 5px;
+    padding: 2%;
+}
 /*footer*/
 
 h2{
