@@ -67,28 +67,32 @@ main{
 /*body*/
 
 
-
-
-.Photos-1{
+.Section-one{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    padding: 2%;
 }
 
 
-.Photos-2{
+.section-two{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
+    justify-content: space-evenly;
+    padding: 2%;
 }
-
 
 .text{
-    text-align: center;
     border: 1px solid white;
+    text-align: center;
     color: white;
     padding: 50px;
+    margin: 2px;
+}
+
+.text-2{
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    padding: 5%;
     margin: 2px;
 }
 
